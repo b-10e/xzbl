@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"interact_with_item_frame": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": [
+							"minecraft:glow_item_frame",
+							"minecraft:item_frame"
+						],
+						"minecraft:slots": {
+							"container.0": {
+								"count": 1
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+        "function": "xzbl:on_interact"
+    }
+}

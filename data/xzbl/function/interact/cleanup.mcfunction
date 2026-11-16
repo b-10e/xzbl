@@ -1,0 +1,1 @@
+tag @s remove xzbl.target_item_frame

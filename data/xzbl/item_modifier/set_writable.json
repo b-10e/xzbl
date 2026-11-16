@@ -1,0 +1,10 @@
+{
+    "type": "set_components",
+    "components": {
+        "writable_book_content": {
+            "pages": [
+                "Hello, world!"
+            ]
+        }
+    }
+}
