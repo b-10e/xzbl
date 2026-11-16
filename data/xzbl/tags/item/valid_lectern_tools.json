@@ -1,0 +1,13 @@
+{
+    "values": [
+	    "minecraft:name_tag",
+		"#xzbl:dyes",
+		"#minecraft:swords",
+		"minecraft:iron_block",
+		"minecraft:piston",
+		"minecraft:sticky_piston",
+		"#minecraft:shovels",
+		"minecraft:water_bucket",
+		"minecraft:chorus_fruit"
+	]
+}

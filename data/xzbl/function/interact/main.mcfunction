@@ -1,5 +1,12 @@
-# store necessary player data
+tag @s remove xzbl.target_item_frame
 
+# terminate if item was (probably) just inserted, rather than interacted
+execute if data entity @s {ItemRotation:0b} run return fail
+data modify entity @s ItemRotation set value 0b
 
-# run rest of logic as item frame
-execute as @n[type=#xzbl:item_frame,tag=xzbl.target_item_frame,distance=..16] run function xzbl:interact/frame
+# store item frame item
+data modify storage xzbl:temp item set from entity @s Item
+
+# begin modification
+execute if data storage xzbl:temp {sneak_key:true} run return run function xzbl:modify/name/main
+function xzbl:modify/lore/main

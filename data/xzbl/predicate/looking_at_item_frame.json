@@ -4,7 +4,7 @@
 	"predicate": {
 		"minecraft:type_specific/player": {
 			"looking_at": {
-				"minecraft:entity_type": "#xzbl:item_frame",
+				"minecraft:entity_type": "#xzbl:item_frames",
 				"minecraft:entity_tags": {
 					"any_of": [
 						"xzbl.candidate"

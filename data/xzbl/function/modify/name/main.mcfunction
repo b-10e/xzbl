@@ -1,0 +1,1 @@
+execute unless data storage xzbl:temp item.components."minecraft:custom_name" run return fail
