@@ -1,0 +1,1 @@
+# should be run at the position of the lectern
