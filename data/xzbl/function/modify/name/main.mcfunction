@@ -1,5 +1,5 @@
 # changing text check
-execute if items entity a0eb863a-38b2-447f-bfef-4574519d264e container.0 minecraft:name_tag run function xzbl:modify/name/text
+execute if items entity a0eb863a-38b2-447f-bfef-4574519d264e container.0 minecraft:name_tag run return run function xzbl:modify/name/text
 
 # otherwise handle other items
 execute unless data entity @s Item.components."minecraft:custom_name" run return fail
@@ -16,5 +16,9 @@ execute if items entity a0eb863a-38b2-447f-bfef-4574519d264e container.0 #xzbl:d
 execute if items entity a0eb863a-38b2-447f-bfef-4574519d264e container.0 minecraft:water_bucket run function xzbl:modify/name/clear
 
 # set new custom_name data
+data modify storage xzbl:temp convert_in set from storage xzbl:temp custom_name
+function xzbl:convert_object_to_string
+data modify storage xzbl:temp custom_name set from storage xzbl:temp convert_out
+
 data modify entity @s Item.components."minecraft:custom_name" set from storage xzbl:temp custom_name
 

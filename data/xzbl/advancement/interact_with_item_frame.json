@@ -4,10 +4,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"entity": "this",
-					"predicate": {
-						"minecraft:entity_type": "#xzbl:item_frames"
-					}
+					"type": "#xzbl:item_frames"
 				}
 			}
 		}

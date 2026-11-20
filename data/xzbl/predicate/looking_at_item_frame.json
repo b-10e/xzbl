@@ -1,17 +1,13 @@
 {
-	"type": "minecraft:entity_properties",
-	"condition": "minecraft:entity_properties",
 	"entity": "this",
 	"predicate": {
-		"minecraft:type_specific/player": {
+		"type": "minecraft:player",
+		"type_specific": {
+			"type": "minecraft:player",
 			"looking_at": {
-				"minecraft:entity_type": "#xzbl:item_frames",
-				"minecraft:entity_tags": {
-					"any_of": [
-						"xzbl.candidate"
-					]
-				}
+				"type": "#xzbl:item_frames"
 			}
 		}
-	}
+	},
+	"condition": "minecraft:entity_properties"
 }

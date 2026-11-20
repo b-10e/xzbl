@@ -1,6 +1,7 @@
 {
 	"entity": "this",
 	"predicate": {
+		"type": "minecraft:player",
 		"flags": {
 			"is_sneaking": true
 		}
