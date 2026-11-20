@@ -5,6 +5,8 @@ This datapack allows the player to customize item names and lore.
 
 <img width="400" height="225" alt="2026-11-20 14-45-45" src="https://github.com/user-attachments/assets/521b463f-5a43-42d4-b895-65764e131dca" />
 
+<img width="400" height="225" alt="2026-11-20 15-16-30" src="https://github.com/user-attachments/assets/47180a42-86e3-4a98-9200-446ec685d537" />
+
 ## How to use
 
 Begin by placing either a sign or a lectern under an item frame, like so:
