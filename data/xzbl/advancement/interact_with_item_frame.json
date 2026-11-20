@@ -4,7 +4,6 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
 						"minecraft:entity_type": "#xzbl:item_frames"
@@ -14,6 +13,6 @@
 		}
 	},
 	"rewards": {
-        "function": "xzbl:on_interact"
-    }
+		"function": "xzbl:on_interact"
+	}
 }
