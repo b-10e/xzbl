@@ -18,6 +18,7 @@ Clicking with various items will modify the text.
 ----
 
 Nametag: will set the text to the first line of text on the sign, or the current page of the lectern book.
+
 <img width="333" height="57" alt="image" src="https://github.com/user-attachments/assets/3b3c8dc1-ca27-41a5-b0b4-6ffdaaa2718a" />
 
 Note: If setting lore, use a lectern instead of a sign. Each page of the book is a line, 
