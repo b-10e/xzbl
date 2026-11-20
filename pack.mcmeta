@@ -2,8 +2,7 @@
   "id":"xzbl",
   "pack": {
     "description": "xokz's Better Lecterns",
-    "pack_format": 41,
-    "min_format": 88,
+    "min_format": 121,
     "max_format": 121
   }
 }
