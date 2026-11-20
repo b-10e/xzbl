@@ -7,12 +7,7 @@
 					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"minecraft:entity_type": "#xzbl:item_frames",
-						"minecraft:slots": {
-							"container.0": {
-								"count": 1
-							}
-						}
+						"minecraft:entity_type": "#xzbl:item_frames"
 					}
 				}
 			}
