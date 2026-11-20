@@ -69,6 +69,17 @@ Water Bucket: clear text
 
 ----
 
+## Compatibility
+
+This datapack can be added or removed from a world at any time with no issue. 
+It has no tick or load functions.
+
+This pack does work with the [Scholar](https://modrinth.com/mod/scholar) mod. 
+Using Scholar allows the user to change specific parts of the name or lore, 
+rather than changing the entire thing.
+
+----
+
 Follows the [Smithed Datapack Conventions](https://docs.smithed.dev/conventions/)
 
 No generative AI was used in this project in any capacity.
