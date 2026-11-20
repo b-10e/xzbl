@@ -26,7 +26,13 @@ execute \
 data modify storage xzbl:temp held_item set from entity a0eb863a-38b2-447f-bfef-4574519d264e item
 
 # run interaction logic
-execute at @s as @n[type=#xzbl:item_frames,tag=xzbl.target_item_frame,distance=..16] run function xzbl:interact/main
+execute \
+    at @s \
+    as @n[type=#xzbl:item_frames,tag=xzbl.target_item_frame,distance=..16] \
+    at @s \
+    align xyz \
+    positioned ~0.5 ~0.5 ~0.5 \
+        run function xzbl:interact/main
 
 # cleanup
 kill a0eb863a-38b2-447f-bfef-4574519d264e

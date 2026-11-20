@@ -3,11 +3,10 @@
 	    "minecraft:name_tag",
 		"#xzbl:dyes",
 		"#minecraft:swords",
-		"minecraft:iron_block",
-		"minecraft:piston",
-		"minecraft:sticky_piston",
+		"#minecraft:axes",
+		"#minecraft:pickaxes",
 		"#minecraft:shovels",
 		"minecraft:water_bucket",
-		"minecraft:chorus_fruit"
+		"minecraft:ender_pearl"
 	]
 }

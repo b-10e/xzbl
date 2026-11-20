@@ -1,0 +1,1 @@
+$data modify storage xzbl:temp current_page_text set from block ~ ~ ~ Book.components."minecraft:writable_book_content".pages[$(page_number)].raw
