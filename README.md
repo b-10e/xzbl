@@ -10,8 +10,10 @@ This datapack allows the player to customize item names and lore.
 Begin by placing either a sign or a lectern under an item frame, like so:
 <img width="780" height="488" alt="image" src="https://github.com/user-attachments/assets/7dc927b1-4f0c-46d7-ab9c-3266d5d84fe0" />
 
-Clicking with various items will modify the text.
-Crouching while clicking will modify the item lore instead of the name.
+Clicking with various items will modify the text.  
+**Crouching while clicking will modify the item lore instead of the name.**
+
+----
 
 Nametag: will set the text to the first line of text on the sign, or the current page of the lectern book.
 <img width="333" height="57" alt="image" src="https://github.com/user-attachments/assets/3b3c8dc1-ca27-41a5-b0b4-6ffdaaa2718a" />
