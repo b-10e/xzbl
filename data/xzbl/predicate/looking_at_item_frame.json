@@ -1,5 +1,4 @@
 {
-	"type": "minecraft:entity_properties",
 	"entity": "this",
 	"predicate": {
 		"minecraft:type_specific/player": {
@@ -12,5 +11,6 @@
 				}
 			}
 		}
-	}
+	},
+	"condition": "minecraft:entity_properties"
 }
