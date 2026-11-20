@@ -1,0 +1,1 @@
+data modify storage xzbl:temp temp_line.text set from storage xzbl:temp temp_lore[0]
